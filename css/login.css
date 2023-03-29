@@ -1,0 +1,114 @@
+body {
+    
+    background: linear-gradient(rgba(20, 20, 20, 0.068),rgba(0,0,0,0.3)) 
+    background-image: linear-gradient(rgba(214, 211, 230, 0.7),rgba(4,9,30,0.7)),url("../assets/ind.jpg");
+    background: url("../assets/imf.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 98vh;
+    width: 98%;
+
+}
+
+div.login {
+    position: relative;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+input {
+    position: relative;
+    background: transparent;
+    padding: 10px 0;
+    width: 200px;
+    border-color: rgb(27, 177, 182);
+    border-radius: 4px;
+    color: rgb(9, 226, 241);
+
+}
+
+input[type=text] {
+    padding: 10px 45px !important;
+    outline: none;
+    font-size: 16px;
+    
+}
+input[type=text]:focus {
+    border: 2px solid rgba(25, 26, 25, 0.144);
+}
+
+input[type=password] {
+    padding: 10px 45px;
+    outline: none;
+}
+input[type=password]:focus {
+    border: 2px solid rgb(210, 207, 207);
+}
+
+.login i.user {
+    position: absolute;
+    left: 6%;
+    top: 39.5%;
+    color: rgb(158, 12, 12);
+    opacity: 0.7;
+}
+
+.login i.lock {
+    position: absolute;
+    left: 6%;
+    top: 56.5%;
+    color: rgb(158, 12, 12);
+    opacity: 0.5;
+}
+
+textarea {
+    padding: 100px;
+}
+
+::placeholder {
+    color: rgba(250, 6, 107, 0.897);
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    opacity: 0.5;
+    font-size: 14px;
+}
+
+img {
+    height: 80px;
+
+}
+
+button {
+    width: 290px;
+    color: rgb(172, 13, 40);
+    padding: 8px 0;
+    border-radius: 4px;
+    border-color: rgb(182, 11, 11);
+    font-weight: 700;
+
+}
+
+a.forgot {
+    margin-top: -10px;
+    float: right;
+    color: rgb(13, 204, 156);
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+p {
+    align-items: center;
+    color: rgb(173, 24, 24);
+    opacity: 0.7;
+}
+
+a.sign {
+    text-decoration: none;
+    color: rgb(173, 24, 24);
+    opacity: 0.7;
+}
